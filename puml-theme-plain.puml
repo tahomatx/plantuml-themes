@@ -11,7 +11,7 @@
 !endif
 
 !if %not(%variable_exists("$FGCOLOR"))
-  !$FGCOLOR = "black"
+  !$FGCOLOR = "red"
 !endif
 
 !if %not(%variable_exists("$HYPERLINK_COLOR"))
