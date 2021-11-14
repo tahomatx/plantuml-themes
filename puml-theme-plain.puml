@@ -19,7 +19,7 @@
 !endif
 
 !ifndef $FONT_NAME
-  !$FONT_NAME = "Verdana"
+  !$FONT_NAME = "Noto Sans CJK JP"
 !endif
 
 !ifndef $FONT_NAME_MONOSPACED
