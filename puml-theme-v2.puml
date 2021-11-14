@@ -11,7 +11,7 @@
 !endif
 
 !if %not(%variable_exists("$FGCOLOR"))
-  !$FGCOLOR = "green"
+  !$FGCOLOR = "red"
 !endif
 
 !if %not(%variable_exists("$HYPERLINK_COLOR"))
@@ -25,6 +25,9 @@
 !ifndef $FONT_NAME_MONOSPACED
   !$FONT_NAME_MONOSPACED = "源ノ等幅"
 !endif
+
+!$FONT_NAME = "Noto Sans CJK JP"
+!$FONT_NAME_MONOSPACED = "源ノ等幅"
 
 <style>
   root {
